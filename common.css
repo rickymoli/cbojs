@@ -1,0 +1,37 @@
+.cbojs {
+	display: inline-block;
+}
+.cbojs span {
+	cursor: pointer;
+	display: block;
+}
+.cbojs ul {
+	list-style-type:none;
+	padding: 0px;
+	margin: 0px;
+}
+.cbojs li {
+	cursor: pointer;
+}
+.cbojs .cbojs_contenedor {
+	overflow: hidden;
+	display: none;
+	z-index: 100;
+	position: absolute;
+}
+.cbojs .cbojs_scroll_contenedor {
+	position: absolute;
+	z-index: 101;
+	width: 10px;
+	display: none;
+	background-color: #00F;
+}
+.cbojs .cbojs_scroll {
+	background-color: #F0F;
+}
+
+.cbojs .redondear {
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
